@@ -1,30 +1,36 @@
-import React from 'react';
 import { Calendar, MapPin } from 'lucide-react';
 
 const experiences = [
   {
-    title: 'Doubt Support Engineer Intern',
-    company: 'GeeksForGeeks',
-    location: 'Remote',
-    period: 'Jan 2024 - Present',
+    title: "Doubt Support Engineer Intern",
+    company: "GeeksForGeeks",
+    location: "Remote",
+    period: "Feb 2024 - Oct 2024",
     description: [
-      'Provided technical support and guidance to students learning Data Structures and Algorithms',
-      'Resolved 500+ coding-related queries with 95% satisfaction rate',
-      'Created educational content and example solutions for complex programming problems',
+      "Provided technical support and guidance to students learning Data Structures and Algorithms",
+      "Resolved 500+ coding-related queries with 95% satisfaction rate",
+      "Created educational content and example solutions for complex programming problems",
     ],
-    technologies: ['Data Structures', 'Algorithms', 'C++', 'Python', 'Java'],
+    technologies: [
+      "Data Structures",
+      "Algorithms",
+      "C++",
+      "Python",
+      "Java",
+      "Web Development",
+    ],
   },
   {
-    title: 'Full-Stack Web Developer',
-    company: 'IIIT Vadodara',
-    location: 'Gandhinagar, India',
-    period: 'Aug 2023 - Dec 2023',
+    title: "Full-Stack Web Developer",
+    company: "IIIT Vadodara",
+    location: "Diu, India",
+    period: "Aug 2023 - Aug 2023",
     description: [
-      'Developed and maintained college web applications using React and Node.js',
-      'Implemented responsive designs and improved user experience',
-      'Collaborated with cross-functional teams to deliver features on schedule',
+      "Developed and maintained a sports fest website, focusing on user engagement and experience.",
+      "Collaborated with a team to implement responsive designs and optimize performance using React and Tailwind CSS.",
+      "Implemented version control processes using Git, facilitating effective collaboration across a team of five developers and ensuring consistent code management during the entire project lifecycle.",
     ],
-    technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'AWS'],
+    technologies: ["React.js", "Node.js", "MongoDB", "Express.js"],
   },
 ];
 
