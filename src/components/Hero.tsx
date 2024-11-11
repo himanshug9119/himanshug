@@ -1,4 +1,3 @@
-import React from 'react';
 import { Github, Linkedin, Code2, Mail } from 'lucide-react';
 
 const Hero = () => {
@@ -12,10 +11,10 @@ const Hero = () => {
                 Hi, I'm <span className="text-indigo-600 dark:text-indigo-400">Himanshu Gupta</span>
               </h1>
               <h2 className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300">
-                Full-Stack Developer | Competitive Programmer
+                Full-Stack Developer | Competitive Programmer | Agile Developer
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl">
-                B.Tech Computer Science student at IIIT Vadodara with a passion for building scalable web applications and solving complex algorithmic problems.
+                B.Tech Computer Science student at IIIT Vadodara with a passion for building scalable softwares, web applications and solving complex algorithmic problems.
               </p>
             </div>
 
