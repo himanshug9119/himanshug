@@ -3,28 +3,42 @@ import { Code, Server, Database, Cloud } from 'lucide-react';
 
 const skills = [
   {
-    category: 'Languages',
-    items: ['JavaScript', 'TypeScript', 'Python', 'Java', 'C++'],
+    category: "Languages",
+    items: ["C++", "Python", "Java", "JavaScript", "SQL", "TypeScript"],
     icon: <Code className="w-6 h-6" />,
   },
   {
-    category: 'Frontend',
-    items: ['React.js', 'Next.js', 'Tailwind CSS', 'Material-UI'],
+    category: "Frontend",
+    items: ["React.js", "Next.js", "Tailwind CSS", "Material-UI"],
     icon: <Code className="w-6 h-6" />,
   },
   {
-    category: 'Backend',
-    items: ['Node.js', 'Express.js', 'Django', 'REST APIs'],
+    category: "Backend",
+    items: ["Node.js", "Express.js", "REST APIs"],
     icon: <Server className="w-6 h-6" />,
   },
   {
-    category: 'Database',
-    items: ['MongoDB', 'PostgreSQL', 'Redis', 'Firebase'],
+    category: "Database",
+    items: ["MongoDB", "MySQL", "Firebase"],
     icon: <Database className="w-6 h-6" />,
   },
   {
-    category: 'Cloud & Tools',
-    items: ['AWS', 'Docker', 'Git', 'CI/CD'],
+    category: "Cloud & Tools",
+    items: ["AWS", "Docker", "Kubernetes", "CI/CD", "Git", "GitHub", "GitLab"],
+    icon: <Cloud className="w-6 h-6" />,
+  },
+  {
+    category: "Courses",
+    items: [
+      "Data Structures",
+      "Algorithms",
+      "OOPS",
+      "OS",
+      "DBMS",
+      "Computer Networks",
+      "Machine Learning",
+      "Cloud Computing"
+    ],
     icon: <Cloud className="w-6 h-6" />,
   },
 ];
@@ -39,9 +53,11 @@ const About = () => {
           </h2>
           <div className="mt-4 max-w-3xl mx-auto">
             <p className="text-lg text-gray-600 dark:text-gray-400">
-              I'm a Computer Science student at IIIT Vadodara, passionate about building scalable web applications
-              and solving complex problems. With a strong foundation in both frontend and backend development,
-              I strive to create efficient and user-friendly solutions.
+              I'm a Computer Science final-year student at IIIT Vadodara,
+              passionate about building scalable web applications and solving
+              complex problems. With a strong foundation in both frontend and
+              backend development, I strive to create efficient and
+              user-friendly solutions. I am a Agile Developer.
             </p>
           </div>
         </div>
@@ -59,7 +75,7 @@ const About = () => {
                 <div className="flex items-center mb-4">
                   <div className="p-2 bg-indigo-100 dark:bg-indigo-900 rounded-lg">
                     {React.cloneElement(skill.icon, {
-                      className: 'w-6 h-6 text-indigo-600 dark:text-indigo-400',
+                      className: "w-6 h-6 text-indigo-600 dark:text-indigo-400",
                     })}
                   </div>
                   <h4 className="ml-3 text-lg font-semibold text-gray-900 dark:text-white">
@@ -83,7 +99,7 @@ const About = () => {
 
         <div className="mt-16 text-center">
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1JvkTa_UQzoZb8ZYyhen496-aLSU8CJj4/view?usp=sharing"
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 transition-colors"
             target="_blank"
             rel="noopener noreferrer"
