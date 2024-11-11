@@ -65,12 +65,12 @@ const Contact = () => {
                     work.himanshu489@gmail.com
                   </a>
                 </div>
-                {/* <div className="flex items-center">
+                <div className="flex items-center">
                   <Phone className="w-5 h-5 text-indigo-600 dark:text-indigo-400 mr-3" />
                   <span className="text-gray-600 dark:text-gray-400">
                     +91 98765 43210
                   </span>
-                </div> */}
+                </div>
                 <div className="flex items-center">
                   <MapPin className="w-5 h-5 text-indigo-600 dark:text-indigo-400 mr-3" />
                   <span className="text-gray-600 dark:text-gray-400">
