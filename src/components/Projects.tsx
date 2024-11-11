@@ -1,34 +1,34 @@
-import React from 'react';
 import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'QuickPoll',
-    description: 'Real-time polling application with instant results visualization',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
-    technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
+    title: "QuickPoll",
+    description:
+      "Real-time polling application with instant results visualization",
+    image: "/QP_homepage.png",
+    technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
     features: [
-      'Real-time updates using WebSocket',
-      'Interactive charts and graphs',
-      'User authentication',
-      'Mobile responsive design',
+      "Real-time updates poll creation and analytics",
+      "Interactive public profile, dashboard",
+      "User authentication",
+      "Mobile responsive design",
     ],
-    github: 'https://github.com/username/quickpoll',
-    live: 'https://quickpoll.demo',
+    github: "https://github.com/himanshug9119/QuickPoll",
+    live: "https://quickpoll-agdv.onrender.com/",
   },
   {
-    title: 'ApnaGhar',
-    description: 'Property rental and management platform',
-    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80',
-    technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'AWS'],
+    title: "ApnaGhar",
+    description: "Property rental and management platform",
+    image: "/AG_homepage.png",
+    technologies: ["Next.js", "TypeScript", "PostgreSQL", "AWS"],
     features: [
-      'Advanced property search',
-      'Virtual tour integration',
-      'Secure payment processing',
-      'Property owner dashboard',
+      "Advanced property search",
+      "Property owner dashboard",
+      "User authentication",
+      "Mobile responsive design",
     ],
-    github: 'https://github.com/username/apnaghar',
-    live: 'https://apnaghar.demo',
+    github: "https://github.com/himanshug9119/mern-estate",
+    live: "https://himanshu-estate.onrender.com/",
   },
 ];
 
