@@ -29,7 +29,7 @@ const Contact = () => {
 
     if (response.ok) {
       setStatus("Message sent successfully!");
-      setFormData({ name: "", email: "", message: "" }); // Reset form
+      setFormData({ name: "", email: "", message: "" });
     } else {
       setStatus(`Error: ${result.message || "Message failed to send"}`);
     }
@@ -59,22 +59,22 @@ const Contact = () => {
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 text-indigo-600 dark:text-indigo-400 mr-3" />
                   <a
-                    href="mailto:your.email@example.com"
+                    href="mailto:work.himanshu489@gmail.com"
                     className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400"
                   >
-                    your.email@example.com
+                    work.himanshu489@gmail.com
                   </a>
                 </div>
-                <div className="flex items-center">
+                {/* <div className="flex items-center">
                   <Phone className="w-5 h-5 text-indigo-600 dark:text-indigo-400 mr-3" />
                   <span className="text-gray-600 dark:text-gray-400">
                     +91 98765 43210
                   </span>
-                </div>
+                </div> */}
                 <div className="flex items-center">
                   <MapPin className="w-5 h-5 text-indigo-600 dark:text-indigo-400 mr-3" />
                   <span className="text-gray-600 dark:text-gray-400">
-                    Gandhinagar, Gujarat, India
+                    Sitapur, Uttar Pradesh, India
                   </span>
                 </div>
               </div>
@@ -106,7 +106,8 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white"
+                placeholder="Your Name"
+                className="p-1 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white"
               />
             </div>
 
@@ -124,7 +125,8 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white"
+                placeholder="Your email"
+                className="p-1 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white"
               />
             </div>
 
@@ -142,7 +144,8 @@ const Contact = () => {
                 onChange={handleChange}
                 rows={4}
                 required
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white"
+                placeholder="Your Message"
+                className="p-1 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white"
               />
             </div>
 
